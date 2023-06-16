@@ -10,22 +10,75 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
+    background-color: rgb(230, 230, 230)
+}
+
+h1{
+    color: #336699;
 }
 
 div{
-    background-color: rgb(230, 230, 230);
+    
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(230, 230, 230, 0.2);
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     border-radius: 20%;
-    padding: 2.5%;
+    padding: 4.5%;
     text-align: center;
 }
 
 p{
+    color: #3f3f3f;
     font-size: 50px;
+    margin: 10px auto 0px auto;
 }
 
 button{
     border: none;
-    margin: 0 5px 0 5px;
+    margin: 0px 5px 0 5px;
+    width: 50px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+.dicrease-button,
+.increase-button{
+    margin-top: 20px;
+}
+
+.dicrease-button{
+    color: #FFF;
+    font-weight: 100;
+    font-size: 20px;
+    border: 1px solid #FF6666;
+    background-color: #FF6666;
+}
+
+.dicrease-button:hover{
+    color: #d6d6d6;
+    border: 1px solid #fe8181;
+    background-color: #fe8181;
+}
+
+.increase-button{
+    color: #FFF;
+    font-weight: 100;
+    font-size: 20px;
+    border: 1px solid #336699;
+    background-color: #336699;
+}
+
+.increase-button:hover{
+    color: #d6d6d6;
+    border: 1px solid #3f75ac;
+    background-color: #3f75ac;
+}
+
+.developed-by{
+    font-size: 20px;
+    color: #336699;
+}
+
+.developed-by a{
+    text-decoration: none;
+    color: #FF6666;
 }
