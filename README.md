@@ -2,7 +2,7 @@
 A simple counter created with JS, HTML and CSS.
 
 # link
-nakahara-counter-js.netlify.app
+https://nakahara-counter-js.netlify.app/
 
 # presentation
 
