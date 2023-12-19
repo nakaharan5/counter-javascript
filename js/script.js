@@ -7,8 +7,19 @@ function increase(){
 
 function dicrease(){
     num--;
+
+    if(num < 0){
+        num = 0;
+    }
     showNumber();
 }
+
+function zerar(){
+    num = 0;
+
+    showNumber();
+}
+
 
 function showNumber(){
     const counter = document.querySelector(".counter");
